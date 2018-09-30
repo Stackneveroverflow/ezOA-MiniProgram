@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/kaoqin/kaoqin",
+    "pages/shenqing/shenqing",
+    "pages/tongzhi/tongzhi",
+    "pages/profile/profile",
+    "pages/logs/logs",
+    "pages/kaoqinlog/kaoqinlog"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "EzOA",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#76EE00",
+    "backgroundColor": "#fff",
+    "border-style": "solid",
+    "list": [
+      {
+        "pagePath": "pages/kaoqin/kaoqin",
+        "text": "考勤"
+      },
+      {
+        "pagePath": "pages/shenqing/shenqing",
+        "text": "申请"
+      },
+      {
+        "pagePath": "pages/tongzhi/tongzhi",
+        "text": "通知"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人信息"
+      }
+    ]
+  }
+}

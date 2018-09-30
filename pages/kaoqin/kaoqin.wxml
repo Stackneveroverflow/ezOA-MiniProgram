@@ -1,0 +1,16 @@
+<!-- 考勤页面 -->
+<view class='container'>
+  <view class='userinfo'>
+    <image
+      class='userinfo-avatar'
+      src="{{userInfo.avatarUrl}}"
+    ></image>
+    <view>
+      <text class='userinfo-nickname'>{{userInfo.nickName}}</text>
+    </view>
+  </view>
+  <text>\n\n</text>
+  <button id='checkBtn' class='btn-check' bindtap='bindCheck'>{{checkStatus}}</button>
+  <rich-text class='box-msg'>{{msg}}</rich-text>
+  <button bindtap='bindNavigator'>查看考勤日历</button>
+</view>

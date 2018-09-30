@@ -1,0 +1,29 @@
+/**index.wxss**/
+page {
+    height: 100%;
+    width: 100%;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.loginBtn {
+    width: auto;
+    height: auto;
+    color: #007AFF;
+    background-color: lawngreen;
+}
+
+.logoImg {
+    width: 200rpx;
+    height: 100rpx;  
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+}

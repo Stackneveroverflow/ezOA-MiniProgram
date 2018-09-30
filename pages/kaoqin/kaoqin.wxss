@@ -1,0 +1,56 @@
+/* pages/kaoqin/kaoqin.wxss */
+page {
+    height: 100%;
+    width: 100%;
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.userinfo-avatar {
+    width: 200rpx;
+    height: 200rpx;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.userinfo-nickname {
+    font-size: 32rpx;
+    color: #007AFF;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-check {
+    width: auto;
+    height: auto;
+    color: #007AFF;
+    background-color: lawngreen;    
+}
+
+.box-msg {
+    width: 60%;
+    height: auto;
+    text-align: center;
+    font-size: small;
+}

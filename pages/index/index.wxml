@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class='imgContainer'>
+  <image src='logo.png' class='logoImg'></image>
+  <text>EzOA欢迎您\n\n</text>
+  <button open-type='getUserInfo' bindgetuserinfo='bindGetUserInfo' class='loginBtn'>登录</button>
+</view>
