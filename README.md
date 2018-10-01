@@ -10,5 +10,5 @@ EzOA前端代码，使用微信开发者工具，参考官方文档
 
 页面放在Pages文件夹中，每个页面目录和文件名要一致，含Page方法的.js和.wxml必须有
 
-wxml与html类似，wxss与css类似
+wxml与html类似，wxss与css类似，采用MVVM模式，wxml页面数据绑定，在js里用this.setData({data:newData})方法同步数据变化
 
