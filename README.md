@@ -8,4 +8,5 @@ EzOA前端代码，使用微信开发者工具，参考官方文档
 
 wxml与html类似，wxss与css类似
 
+Demo.gif👇
 ![Demo](https://github.com/Stackneveroverflow/ezOA-MiniProgram/raw/master/EzOA.GIF)
