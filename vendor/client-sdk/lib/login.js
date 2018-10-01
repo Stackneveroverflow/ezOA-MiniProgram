@@ -23,7 +23,7 @@ function getWxLoginResult (cb) {
                     })
                 },
                 fail (userError) {
-                    cb(new Error('获取微信用户信息失败，请检查网络状态'), null)
+                    cb(new Error('获取微信用户信息失败'), null)
                 }
             });
         },
